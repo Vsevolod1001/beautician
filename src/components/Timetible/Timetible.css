@@ -1,0 +1,52 @@
+.time-table{
+    padding: 75px 0 100px;
+  }
+  .all-title{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 75px;
+  }
+  .lister{
+    display: inline-flex;    
+    height: 53px;
+    background: #FFFFFF;
+    border: 1px solid #c7f8c2;
+    box-shadow: 0px 4px 4px rgba(202, 202, 202, 0.1);
+    margin-bottom: 75px;
+  }
+  .lister .top-l{
+    display: flex;
+    margin-bottom: 75px;
+  }
+  .lister .top-l li{
+    width: 285px; 
+  }
+  .lister li{
+    cursor: pointer;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    color: #1c1e23;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    width: 200px;
+  }
+  .lister li:not(:last-child){
+    border-right: 1px solid #D4D8DB;
+  }
+  .lister li:hover{
+    color: #55a630;
+  }
+  .lister li:first-child{
+    width: 202px;
+    flex-grow: 0;
+  }
+  .lister .active{
+    background: #c7f8c2;
+    color: #424242;
+  }

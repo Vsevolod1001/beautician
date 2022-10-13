@@ -1,0 +1,85 @@
+.price-block{
+    padding: 67px 0;
+}
+.container.greenbg{
+    font-size: 22px;
+    color: #424242;
+    background: #ecf9eb;
+    margin-top: 75px;
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .price-table{
+    background: #f8f8f8;
+    padding: 0 60px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #424242;
+  }
+  .price-table .td{
+    flex-grow: 0;
+  }
+  .price-table .td a{
+    text-decoration-line: underline;
+  }
+  .price-table .td a:hover{
+    color: #55A630;
+  }
+.w60{
+    width: 60px;
+    text-align: center;
+    margin-right: 40px;
+  }
+ .w150{
+    width: 123px;
+    text-align: left;
+  }
+ .w150:not(:last-child){
+    margin-right: 66px;
+  }
+  .bbird{
+    position: relative;
+  }
+  .bbird:before{
+    content: url(../../img/bbird.svg);
+    position: absolute;
+    top: -12px;
+    right: 0;
+  }
+  .w100{
+    width: 400px;
+    margin-right: auto;
+  }
+  .table-head{
+    height: 116px;
+    align-items: center;
+    display: flex;
+  }
+  .table-item{
+    border-top: 1px solid #b5b5b5;
+    padding: 34px 0;
+  }
+  .table-row{
+    padding: 13px 0;
+    display: flex;
+  }
+  .table-row:first-child{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .table-row:first-child .w100{
+    font-size: 22px;
+  }
+  .table-row .w100{      
+    display: flex;
+  }
+  .table-row .num{
+    width: 42px;
+    flex-shrink: 0;
+  }

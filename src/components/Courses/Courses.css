@@ -1,0 +1,78 @@
+.courses-top{
+    padding-top: 57px;
+}
+.courses-top .title{
+    margin-bottom: 21px;
+}
+.category-filter-parent{
+   display: flex;  
+    justify-content: space-between;
+    height: 53px;
+    background: #FFFFFF;
+    border: 1px solid #c7f8c2;
+    box-shadow: 0px 4px 4px rgba(202, 202, 202, 0.1);
+}
+.filter-parent-li{
+    flex-grow: 1;
+      position: relative;
+      display: flex;
+}
+.filter-parent-li:first-child{
+    width: 202px;
+    flex-grow: 0;
+}
+.filter-parent-li .active{
+    background: #c7f8c2;
+}
+.filter-parent-li a{
+    font-size: 14px;
+    line-height: 18px;
+    color: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.filter-parent-li a:hover{
+    color: #55A630;
+}
+.filter-parent-li:hover ul{
+    display: flex;
+}
+
+.category-filter-closure{
+    display: none;
+    background: #FFFFFF;
+    padding: 24px 22px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid #c7f8c2;
+    flex-direction: column;  
+}
+.category-filter-closure a{
+    font-size: 14px;
+    line-height: 18px;
+    color: #424242;
+    padding: 9px 0;
+    display: block;
+}
+.category-filter-closure a:hover{
+    color: #55A630;
+}
+
+.courses-list{
+    padding-top: 54px;
+  padding-bottom: 109px;
+}
+.courses-list-block{
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.courses-list-block .lesson-card{
+    margin-bottom: 59px; 
+}

@@ -1,0 +1,59 @@
+footer{
+    background: #424242;
+}
+.footer__block{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__block-map{
+    width: 52.5%;    
+    position: relative;
+}
+.footer__block-contact{
+    width: 47.5%;
+    padding: 37px 69px;
+}
+.footer__block-logo{
+    display: block;
+    margin-bottom: 50px;
+}
+.footer__block-logo img{
+    width: 98px;
+    height: 98px;
+    margin: 0;
+}
+.footer__block-tel{
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.footer__block-address{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 18px 0 77px;
+}
+.footer__block-menu ul{
+    width: 488px;
+    columns: 2;
+}
+.footer__block-menu li{
+    margin-bottom: 22px;
+}
+.footer__block-menu a{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.footer__block-social{
+    margin: 77px 0 50px;
+}
+.footer__block-social a{
+    margin-right: 39px;
+}
+.footer__block-politic{
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
